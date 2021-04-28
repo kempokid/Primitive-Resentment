@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Dialogue_Manager : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public Text npcNameText;
-    public Text dialogueText;
+    public TextMeshProUGUI dialogueText;
+    public Image CharPortrait;
+    public GameObject CharacterPortrait;
 
     private List<string> conversation;
     private int convoIndex;
@@ -15,6 +18,7 @@ public class Dialogue_Manager : MonoBehaviour
     void Start()
     {
         dialoguePanel.SetActive(false);
+        
     }
 
     
@@ -29,11 +33,20 @@ public class Dialogue_Manager : MonoBehaviour
 
     public void Start_Dialogue(SO_Convo _convo)
     {
+        SetPortrait(_convo);
         npcNameText.text = _convo.npcName;
         conversation = new List<string>(_convo.myConversation);
         dialoguePanel.SetActive(true);
         convoIndex = 0;
         ShowText();
+    }
+
+    public void SetPortrait(SO_Convo _convo)
+    {
+        //CharPortrait.GetComponent<Image>().sprite = _convo.portrait;
+
+        CharPortrait = CharacterPortrait.GetComponent<Image>();
+        CharPortrait.sprite = _convo.portrait;
     }
 
     public void Stop_Dialogue()
