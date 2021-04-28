@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Collector : MonoBehaviour
 {
+    public InventoryManager invManager;
+    public Item myItem;
+
     // Start is called before the first frame update
-    void Start()
+
+
+    public void Interact()
     {
-        
+        invManager.itemHeld = myItem;
+        invManager.invDisp.UpdateDisplay();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnMouseDown()
     {
-        
+        Interact();
     }
+
 }

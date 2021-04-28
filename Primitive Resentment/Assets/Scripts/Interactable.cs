@@ -1,18 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 
 public class Interactable : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    void OnMouseDown()
     {
-        this.enabled = false;
+        Interact(); 
     }
 
     public void Interact()
     {
-        Debug.Log("interacting with" + name);
+        Debug.Log("Click haha");
     }
 }
