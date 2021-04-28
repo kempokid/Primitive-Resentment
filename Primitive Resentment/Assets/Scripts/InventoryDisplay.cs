@@ -8,6 +8,9 @@ public class InventoryDisplay : MonoBehaviour
 {
     public InventoryManager invManager;
     public TextMeshProUGUI displayText;
+    
+    [HideInInspector]
+    public string displayName;
     void Start()
     {
         displayText = GetComponent<TextMeshProUGUI>();
@@ -16,7 +19,7 @@ public class InventoryDisplay : MonoBehaviour
 
     public void UpdateDisplay()
     {
-        string displayName;
+        
         if(invManager.itemHeld != null)
         {
             displayName = invManager.itemHeld.itemName;
