@@ -7,7 +7,7 @@ using TMPro;
 public class Dialogue_Manager : MonoBehaviour
 {
     public GameObject dialoguePanel;
-    public Text npcNameText;
+    public TextMeshProUGUI npcNameText;
     public TextMeshProUGUI dialogueText;
     public Image CharPortrait;
     public GameObject CharacterPortrait;
