@@ -10,6 +10,11 @@ public class NPC_SO_Convo : MonoBehaviour
 
     private void Start()
     {
+        Start_Dialogue();
+    }
+
+    public void Start_Dialogue()
+    {
         dialogueManager.Start_Dialogue(myConvo);
     }
 
