@@ -20,9 +20,10 @@ public class InventoryDisplay : MonoBehaviour
     public void UpdateDisplay()
     {
         
-        if(invManager.itemHeld != null)
+        if(invManager.itemsHeld != null)
         {
-            displayName = invManager.itemHeld.itemName;
+            foreach(var )
+            displayName = invManager.itemGrabbed.itemName;
         }
         else
         {

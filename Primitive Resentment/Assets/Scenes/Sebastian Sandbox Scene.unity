@@ -547,7 +547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   invManager: {fileID: 1854296785}
   myItem:
-    itemName: Other Item
+    itemName: other item
 --- !u!212 &1099495458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invManager: {fileID: 1854296785}
-  displayText: {fileID: 0}
+  displayText: {fileID: 1537941137}
   displayName: 
 --- !u!1 &1779749810
 GameObject:
@@ -825,6 +825,7 @@ MonoBehaviour:
   itemDialogue: {fileID: 11400000, guid: b03153a5197910249a99170356dd0cdb, type: 2}
   dialogueManager: {fileID: 474797717}
   invDisplay: {fileID: 1537941139}
+  invManager: {fileID: 1854296785}
 --- !u!212 &1779749812
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -959,8 +960,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invDisp: {fileID: 1537941139}
-  itemHeld:
+  itemGrabbed:
     itemName: 
+  itemsHeld: []
 --- !u!4 &1854296786
 Transform:
   m_ObjectHideFlags: 0

@@ -7,5 +7,6 @@ public class InventoryManager : MonoBehaviour
     //public static InventoryManager ins;
     public InventoryDisplay invDisp;
 
-    public Item itemHeld = null;
+    public Item itemGrabbed = null;
+    public List<Item> itemsHeld = new List<Item>();
 }

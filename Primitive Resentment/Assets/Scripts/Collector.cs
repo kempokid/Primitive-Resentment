@@ -5,6 +5,7 @@ using UnityEngine;
 public class Collector : MonoBehaviour
 {
     public InventoryManager invManager;
+    //public List<Item> myItems = new List<Item>();
     public Item myItem;
 
     // Start is called before the first frame update
@@ -12,7 +13,7 @@ public class Collector : MonoBehaviour
 
     public void Interact()
     {
-        invManager.itemHeld = myItem;
+        invManager.itemsHeld.Add(myItem/*invManager.itemGrabbed*/); //= myItem;
         invManager.invDisp.UpdateDisplay();
     }
 

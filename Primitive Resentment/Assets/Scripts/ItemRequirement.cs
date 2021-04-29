@@ -9,19 +9,25 @@ public class ItemRequirement : MonoBehaviour
     public SO_Convo itemDialogue;
     public Dialogue_Manager dialogueManager;
     public InventoryDisplay invDisplay;
+    public InventoryManager invManager;
 
     // Start is called before the first frame update
     private void OnMouseDown()
     {
-        if(invDisplay.displayName == requiredItem)
+        //if(invManager.itemsHeld.Contains(requiredItem))(invDisplay.displayName == requiredItem)
+        foreach (var x in invManager.itemsHeld)
         {
-            Debug.Log("Correct Item");
-            dialogueManager.Start_Dialogue(itemDialogue);
-        }
-        else
-        {
-            Debug.Log("Incorrect Item");
-            dialogueManager.Start_Dialogue(noItemDialogue);
+            if (x.itemName == requiredItem)
+            {
+                Debug.Log("Correct Item");
+                dialogueManager.Start_Dialogue(itemDialogue);
+                return;
+            }
+            else
+            {
+                Debug.Log("Incorrect Item");
+                dialogueManager.Start_Dialogue(noItemDialogue);
+            }
         }
     }
 
