@@ -22,7 +22,7 @@ public class InventoryDisplay : MonoBehaviour
         
         if(invManager.itemsHeld != null)
         {
-            foreach(var )
+            //foreach(var )
             displayName = invManager.itemGrabbed.itemName;
         }
         else

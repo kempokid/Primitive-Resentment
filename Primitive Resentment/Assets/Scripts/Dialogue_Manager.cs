@@ -7,6 +7,7 @@ using TMPro;
 public class Dialogue_Manager : MonoBehaviour
 {
     public GameObject dialoguePanel;
+    public GameObject buttonBlocker;
     public TextMeshProUGUI npcNameText;
     public TextMeshProUGUI dialogueText;
     public Image CharPortrait;
@@ -17,6 +18,7 @@ public class Dialogue_Manager : MonoBehaviour
 
     void Start()
     {
+        buttonBlocker.SetActive(false);
         dialoguePanel.SetActive(false);
         
     }
@@ -34,6 +36,7 @@ public class Dialogue_Manager : MonoBehaviour
     public void Start_Dialogue(SO_Convo _convo)
     {
         SetPortrait(_convo);
+        buttonBlocker.SetActive(true);
         npcNameText.text = _convo.npcName;
         conversation = new List<string>(_convo.myConversation);
         dialoguePanel.SetActive(true);
@@ -51,6 +54,7 @@ public class Dialogue_Manager : MonoBehaviour
 
     public void Stop_Dialogue()
     {
+        buttonBlocker.SetActive(false);
         dialoguePanel.SetActive(false);
     }
 
