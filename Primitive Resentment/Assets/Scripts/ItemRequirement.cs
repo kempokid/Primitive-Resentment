@@ -10,23 +10,41 @@ public class ItemRequirement : MonoBehaviour
     public Dialogue_Manager dialogueManager;
     public InventoryDisplay invDisplay;
     public InventoryManager invManager;
+    bool foundItem = false;
+    public GameObject objectToChange;
+
 
     // Start is called before the first frame update
     private void OnMouseDown()
     {
-        //if(invManager.itemsHeld.Contains(requiredItem))(invDisplay.displayName == requiredItem)
-        foreach (var x in invManager.itemsHeld)
+        if (foundItem == true)
         {
-            if (x.itemName == requiredItem)
+           if(objectToChange.activeSelf == false)
             {
-                Debug.Log("Correct Item");
-                dialogueManager.Start_Dialogue(itemDialogue);
-                return;
+                objectToChange.SetActive(true);
             }
             else
             {
-                Debug.Log("Incorrect Item");
-                dialogueManager.Start_Dialogue(noItemDialogue);
+                objectToChange.SetActive(false);
+            }
+        }
+        else
+        {
+            //if(invManager.itemsHeld.Contains(requiredItem))(invDisplay.displayName == requiredItem)
+            foreach (var x in invManager.itemsHeld)
+            {
+                if (x.itemName == requiredItem)
+                {
+                    Debug.Log("Correct Item");
+                    dialogueManager.Start_Dialogue(itemDialogue);
+                    foundItem = true;
+                    return;
+                }
+                else
+                {
+                    Debug.Log("Incorrect Item");
+                    dialogueManager.Start_Dialogue(noItemDialogue);
+                }
             }
         }
     }
