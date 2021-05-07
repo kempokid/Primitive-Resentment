@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
+  m_Name: Monkey Cages SO
+  m_EditorClassIdentifier: 
+  npcName: Monkey
+  portrait: {fileID: 21300000, guid: a615d6b8abcb5b74cb6865397b0cda36, type: 3}
+  myConversation:
+  - Do you think me a savage? A monster? A killer?
+  - You are sadly mistaken, but I cannot blame you. You couldn't possibly know the
+    truth
+  - Though I'm sure you know part of the truth. I was a horrible person in life,
+    I can see that now
+  - But trapped as a freak, like this, I have a second chance, a chance to attone
+    for my wrongs.
+  - What you see before you is not brutality, it is mercy. A life lost is better
+    than a life lived like this
+  - I will give you one more chance.
+  - Turn away, before you learn a truth you cannot forget
