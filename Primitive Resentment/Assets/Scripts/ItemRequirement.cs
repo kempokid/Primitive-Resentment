@@ -15,7 +15,7 @@ public class ItemRequirement : MonoBehaviour
 
 
     // Start is called before the first frame update
-    private void OnMouseDown()
+    public void TriggerDialogue()
     {
         if (foundItem == true)
         {
@@ -47,12 +47,5 @@ public class ItemRequirement : MonoBehaviour
                 }
             }
         }
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
