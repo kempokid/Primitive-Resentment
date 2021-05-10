@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class Item 
+public class PlaceHolderItem 
 {
     public string itemName;
 }

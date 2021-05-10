@@ -6,7 +6,7 @@ public class Collector : MonoBehaviour
 {
     public InventoryManager invManager;
     //public List<Item> myItems = new List<Item>();
-    public Item myItem;
+    public PlaceHolderItem myItem;
 
     // Start is called before the first frame update
 
