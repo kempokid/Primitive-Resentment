@@ -8,6 +8,7 @@ public class RandomTextSelector : MonoBehaviour
     public string[] randomText;
     public TextMeshProUGUI insultDisplay;
 
+
     public void RTS()
     {
         insultDisplay.text = GetRandomText();

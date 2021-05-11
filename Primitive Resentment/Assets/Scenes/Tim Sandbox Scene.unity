@@ -1324,61 +1324,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &730169799
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 730169801}
-  - component: {fileID: 730169800}
-  m_Layer: 0
-  m_Name: RandomTextManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &730169800
+--- !u!114 &730169800 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5211443040209353159, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+  m_PrefabInstance: {fileID: 5211443039512934415}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730169799}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a8f0f70cce889d4d9ddce1d768a9ccc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomText:
-  - Are you stupid?
-  - Not even close
-  - Really?
-  - Oof
-  - This room is idiot proof
-  - Actually I think you had it last time
-  - Nice try, is what I would say if you didn't suck
-  - Correct! Wait, nope, you still suck!
-  - Have you considered trying?
-  - It's honestly not that hard
-  insultDisplay: {fileID: 1043567615}
---- !u!4 &730169801
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730169799}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 531.5107, y: 391.03372, z: -10.088928}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043567614
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,6 +3235,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4c02b5535ccd9f4b910215fa29aad99, type: 3}
+--- !u!1001 &5211443039512934415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 531.5107
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 391.03372
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.088928
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353158, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211443040209353159, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: insultDisplay
+      value: 
+      objectReference: {fileID: 1043567615}
+    - target: {fileID: 5211443040209353160, guid: c735ae73f434b794e901f763249b36a8, type: 3}
+      propertyPath: m_Name
+      value: RandomTextManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c735ae73f434b794e901f763249b36a8, type: 3}
 --- !u!1001 &8117703320920265893
 PrefabInstance:
   m_ObjectHideFlags: 0
