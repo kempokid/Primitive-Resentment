@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class ItemRequirement : MonoBehaviour
 {
-    public string requiredItem;
+    //public string requiredItem;
+    public ItemObject requiredItem;
     public SO_Convo noItemDialogue;
     public SO_Convo itemDialogue;
     public Dialogue_Manager dialogueManager;
-    public InventoryDisplay invDisplay;
-    public InventoryManager invManager;
+    public InventoryObject inventory;
+    //public InventoryDisplay invDisplay;
+    //public InventoryManager invManager;
     bool foundItem = false;
     public GameObject objectToChange;
 
@@ -31,9 +33,9 @@ public class ItemRequirement : MonoBehaviour
         else
         {
             //if(invManager.itemsHeld.Contains(requiredItem))(invDisplay.displayName == requiredItem)
-            foreach (var x in invManager.itemsHeld)
+            foreach (var inventorySlot in inventory.Container)
             {
-                if (x.itemName == requiredItem)
+                if (inventorySlot.item == requiredItem)
                 {
                     Debug.Log("Correct Item");
                     dialogueManager.Start_Dialogue(itemDialogue);

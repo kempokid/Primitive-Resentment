@@ -8,4 +8,9 @@ public class DestroyOnClick : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void DestroyObject()
+    {
+        Destroy(gameObject);
+    }
 }

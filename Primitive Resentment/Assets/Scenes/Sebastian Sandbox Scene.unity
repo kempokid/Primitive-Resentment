@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 40904292}
   - component: {fileID: 40904291}
   - component: {fileID: 40904290}
+  - component: {fileID: 40904293}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -228,6 +229,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 40904293}
+        m_TargetAssemblyTypeName: DestroyOnClick, Assembly-CSharp
+        m_MethodName: DestroyObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &40904291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,6 +279,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40904288}
   m_CullTransparentMesh: 0
+--- !u!114 &40904293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40904288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc9962dca794d4498d1d7cb035d75b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &474797717 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3500028559972926157, guid: f4c02b5535ccd9f4b910215fa29aad99, type: 3}
@@ -1116,12 +1141,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf71bb4dbd2c7343bc8b4cedc7cd55d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredItem: shiny key
+  requiredItem: {fileID: 11400000, guid: b0581663ac605da4a999958592fe9018, type: 2}
   noItemDialogue: {fileID: 11400000, guid: b85596611ed9701448fc8c885e452105, type: 2}
   itemDialogue: {fileID: 11400000, guid: b03153a5197910249a99170356dd0cdb, type: 2}
   dialogueManager: {fileID: 474797717}
-  invDisplay: {fileID: 1537941139}
-  invManager: {fileID: 1854296785}
+  inventory: {fileID: 11400000, guid: b3cce2f2798d39d429c40ee9e5b7aeeb, type: 2}
   objectToChange: {fileID: 1920038527}
 --- !u!114 &1381446732
 MonoBehaviour:
