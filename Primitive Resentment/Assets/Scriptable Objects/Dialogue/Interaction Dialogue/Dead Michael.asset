@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
-  m_Name: Monkey Containment Escape SO
+  m_Name: Dead Michael
   m_EditorClassIdentifier: 
-  npcName: Monkey
-  portrait: {fileID: 21300000, guid: a615d6b8abcb5b74cb6865397b0cda36, type: 3}
+  npcName: Michael
+  portrait: {fileID: 21300000, guid: b641313cde834d24d9680d9926786829, type: 3}
   myConversation:
-  - Not the brightest, are you?
-  - Fine, I'll open the door anyway, I doubt you'll make it much farther
-  - Don't blame me for the things you see beyond here
+  - Michael...
+  - I will avenge you

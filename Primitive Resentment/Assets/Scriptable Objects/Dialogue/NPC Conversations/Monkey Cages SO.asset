@@ -16,13 +16,13 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: a615d6b8abcb5b74cb6865397b0cda36, type: 3}
   myConversation:
   - Do you think me a savage? A monster? A killer?
-  - You are sadly mistaken, but I cannot blame you. You couldn't possibly know the
-    truth
-  - Though I'm sure you know part of the truth. I was a horrible person in life,
-    I can see that now
-  - But trapped as a freak, like this, I have a second chance, a chance to attone
-    for my wrongs.
+  - You are sadly mistaken, though that could not be your fault. You've been fed
+    lies by those that would use you for their own twisted goals.
+  - Though... You must know some of it. I can see now, I was wrong, I was a monster.
+    But none of that matters anymore
+  - But trapped like this... I cannot atone for my misdeeds, but I can do justice,
+    just this once, for the sake of those I've hurt
   - What you see before you is not brutality, it is mercy. A life lost is better
     than a life lived like this
   - I will give you one more chance.
-  - Turn away, before you learn a truth you cannot forget
+  - Turn away, before you learn a truth you cannot handle
