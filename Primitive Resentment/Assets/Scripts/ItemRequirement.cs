@@ -15,20 +15,30 @@ public class ItemRequirement : MonoBehaviour
     bool foundItem = false;
     public GameObject objectToChange;
 
+    void ToggleItem()
+    {
+        if (objectToChange.activeSelf == false)
+        {
+            objectToChange.SetActive(true);
+        }
+        else
+        {
+            objectToChange.SetActive(false);
+        }
+    }
+
 
     // Start is called before the first frame update
     public void TriggerDialogue()
     {
         if (foundItem == true)
         {
-           if(objectToChange.activeSelf == false)
-            {
-                objectToChange.SetActive(true);
-            }
-            else
-            {
-                objectToChange.SetActive(false);
-            }
+            ToggleItem();
+        }
+        else if(requiredItem == null)
+        {
+            dialogueManager.Start_Dialogue(itemDialogue);
+            ToggleItem();
         }
         else
         {
