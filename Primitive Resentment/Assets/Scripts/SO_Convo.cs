@@ -10,5 +10,7 @@ public class SO_Convo : ScriptableObject
     public string npcName;
     public Sprite portrait;
     public List<string> myConversation = new List<string>();
+    //public List<GameObject> ItemsToDisable = new List<GameObject>();
+    //public List<GameObject> ItemsToEnable = new List<GameObject>();
 
 }

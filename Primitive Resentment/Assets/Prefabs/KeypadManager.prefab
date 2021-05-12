@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5211443040209353160
+--- !u!1 &8725374648441379153
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5211443040209353158}
-  - component: {fileID: 5211443040209353159}
+  - component: {fileID: 8725374648441379155}
+  - component: {fileID: 8725374648441379154}
   m_Layer: 0
-  m_Name: RandomTextManager
+  m_Name: KeypadManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5211443040209353158
+--- !u!4 &8725374648441379155
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5211443040209353160}
+  m_GameObject: {fileID: 8725374648441379153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 531.5107, y: 391.03372, z: -10.088928}
+  m_LocalPosition: {x: 696.0048, y: 340.25146, z: -1849.8805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5211443040209353159
+--- !u!114 &8725374648441379154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5211443040209353160}
+  m_GameObject: {fileID: 8725374648441379153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a8f0f70cce889d4d9ddce1d768a9ccc, type: 3}
+  m_Script: {fileID: 11500000, guid: 674ab35200ec5074ebb14db34cebfdd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxPress: 0
+  currentPress: 0
+  KeypadDisplay: {fileID: 0}
   randomText:
   - Are you stupid?
   - Not even close
   - Really?
   - Oof
-  - This room is idiot proof
+  - This room is idiot proof, and it shows
   - Actually I think you had it last time
   - Nice try, is what I would say if you didn't suck
   - Correct! Wait, nope, you still suck!
@@ -59,9 +62,9 @@ MonoBehaviour:
   - We can scratch "detective" from potential careers
   - $50 says you have no clue what you're doing
   - Woooooooooooooow
-  - My 5 year old son figured out before you did
+  - My 5 year old son figured this out before you did
   - I'm glad you're here, I've needed a good laugh all day
   - You buffoon
-  - This labratory is filled with genius, except the spot where you're standing
+  - This lab is filled with knowledge, except where you're standing
   - Are you just... pressing randomly?
   insultDisplay: {fileID: 0}

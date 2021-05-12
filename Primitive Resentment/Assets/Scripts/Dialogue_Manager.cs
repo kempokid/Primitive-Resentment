@@ -13,6 +13,9 @@ public class Dialogue_Manager : MonoBehaviour
     public Image CharPortrait;
     public GameObject CharacterPortrait;
 
+    //public List<GameObject> itemsToDisable;
+    //public List<GameObject> itemsToEnable;
+
     private List<string> conversation;
     private int convoIndex;
 
@@ -57,6 +60,26 @@ public class Dialogue_Manager : MonoBehaviour
         buttonBlocker.SetActive(false);
         dialoguePanel.SetActive(false);
     }
+
+    //public void DisableItems(SO_Convo _items)
+    //{
+    //    itemsToDisable = _items.ItemsToDisable;
+
+    //    foreach (var obj in itemsToDisable)
+    //    {
+    //        obj.SetActive(false);
+    //    }
+    //}
+
+    //public void EnableItems(SO_Convo _items)
+    //{
+    //    itemsToEnable = _items.ItemsToEnable;
+
+    //    foreach (var obj in itemsToEnable)
+    //    {
+    //        obj.SetActive(true);
+    //    }
+    //}
 
     private void ShowText()
     {
