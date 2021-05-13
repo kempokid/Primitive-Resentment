@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DisableScript : MonoBehaviour
+public class EnableDisable : MonoBehaviour
 {
     public List<GameObject> DisableList;
     public List<GameObject> EnableList;
@@ -23,7 +23,7 @@ public class DisableScript : MonoBehaviour
     //    }
     //}
 
-    public void EnableDisable()
+    public void ChangeAbility()
     {
         foreach (var obj in EnableList)
         {

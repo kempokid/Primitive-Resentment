@@ -23,6 +23,7 @@ public class Dialogue_Manager : MonoBehaviour
     
     public bool delete;
     public GameObject objectToDelete;
+    public GameObject linkedItem;
 
     private List<string> conversation;
     private int convoIndex;
@@ -69,7 +70,7 @@ public class Dialogue_Manager : MonoBehaviour
         dialoguePanel.SetActive(false);
         if(delete == true)
         {
-            Destroy(objectToDelete);
+            deleteMe();
         }
     }
 
@@ -115,10 +116,17 @@ public class Dialogue_Manager : MonoBehaviour
         }
     }
 
-    public void deleteThis()
+    public void deleteThis(DisableScript _disable)
     {
         objectToDelete = EventSystem.current.currentSelectedGameObject;
+        linkedItem = _disable.gameObject;
         delete = true;
+    }
+
+    public void deleteMe()
+    {
+        Destroy(objectToDelete);
+        Destroy(linkedItem);
     }
 
 }
