@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
-  m_Name: Michaels Hand
+  m_Name: Hacksaw
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 21300000, guid: fadddf7188a35df4580839a3ed3e2614, type: 3}
+  portrait: {fileID: 21300000, guid: 62f34a5b4a0590547b49955a3a69d0bb, type: 3}
   myConversation:
-  - He's holding on to a ring
-  - This must've been what he was going to use to propose to his girlfriend
+  - A hacksaw with an old, rusted blade.
+  - Not the most efficient tool, but it could work in a pinch.

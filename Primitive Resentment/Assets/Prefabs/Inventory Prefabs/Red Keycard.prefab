@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5358892746100538655, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
+      propertyPath: interactDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: f319a351ba938094da8f63022e118780, type: 2}
     - target: {fileID: 2834862837124189548, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -94,14 +98,14 @@ PrefabInstance:
     - target: {fileID: 2834862837124189549, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b641313cde834d24d9680d9926786829, type: 3}
+      objectReference: {fileID: 21300000, guid: 3e4cb34888558ef489aa00b85fc91568, type: 3}
     - target: {fileID: 2834862837124189549, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2834862837124189551, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
       propertyPath: m_Name
-      value: Image (1) Variant
+      value: Red Keycard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}

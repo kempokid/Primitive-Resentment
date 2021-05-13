@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 534f323c135acc04abd733f82daba535, type: 3}
-  m_Name: Red KeyCard
+  m_Name: Document 1
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4700595176930794068, guid: 8e9e44e6414a7704485535b9a22984eb, type: 3}
+  prefab: {fileID: 2303305951996956006, guid: 85dff059eb0e7ee439340c7c23738f22, type: 3}
   type: 0
-  description: The keycard found on Michael's body
+  description: 
