@@ -17,6 +17,7 @@ public class ItemRequirement : MonoBehaviour
     public bool canAddItem;
     public ItemObject itemToAdd;
     public GameObject objectToChange;
+    public GameObject objectToChange2;
 
     void ToggleItem()
     {
@@ -28,6 +29,15 @@ public class ItemRequirement : MonoBehaviour
         {
             objectToChange.SetActive(false);
         }
+
+        if (objectToChange2.activeSelf == false)
+        {
+            objectToChange2.SetActive(true);
+        }
+        else
+        {
+            objectToChange2.SetActive(false);
+        }
     }
 
 
@@ -36,15 +46,23 @@ public class ItemRequirement : MonoBehaviour
     {
        if (gaveItem == true)
        {
+            Debug.Log("Triggered post item dialogue");
             dialogueManager.Start_Dialogue(postItemDialogue);
+            return;
        }
-        if(requiredItem == null)
-        {
+
+       if(requiredItem == null)
+       {
+            if (canAddItem == true)
+            {
+                gaveItem = true;
+            }
             dialogueManager.Start_Dialogue(itemDialogue);
             ToggleItem();
-        }
-        else
-        {
+           
+       }
+       else
+       {
             //if(invManager.itemsHeld.Contains(requiredItem))(invDisplay.displayName == requiredItem)
             foreach (var inventorySlot in inventory.Container)
             {
