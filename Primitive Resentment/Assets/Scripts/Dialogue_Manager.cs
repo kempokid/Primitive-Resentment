@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
 
@@ -12,9 +13,16 @@ public class Dialogue_Manager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public Image CharPortrait;
     public GameObject CharacterPortrait;
+    
 
-    //public List<GameObject> itemsToDisable;
-    //public List<GameObject> itemsToEnable;
+    
+
+    //In testing
+    //private List<GameObject> itemsToDisable;
+    //private List<GameObject> itemsToEnable;
+    
+    public bool delete;
+    public GameObject objectToDelete;
 
     private List<string> conversation;
     private int convoIndex;
@@ -59,27 +67,34 @@ public class Dialogue_Manager : MonoBehaviour
     {
         buttonBlocker.SetActive(false);
         dialoguePanel.SetActive(false);
+        if(delete == true)
+        {
+            Destroy(objectToDelete);
+        }
     }
 
-    //public void DisableItems(SO_Convo _items)
-    //{
-    //    itemsToDisable = _items.ItemsToDisable;
 
-    //    foreach (var obj in itemsToDisable)
-    //    {
-    //        obj.SetActive(false);
-    //    }
+    //In testing
+
+    //public void DisableItems()
+    //{
+    //    FindObjectOfType<DisableScript>().Disable();
     //}
 
-    //public void EnableItems(SO_Convo _items)
+    //public void EnableItems()
     //{
-    //    itemsToEnable = _items.ItemsToEnable;
+    //    //itemsToEnable = _items.ItemsToEnable;
 
-    //    foreach (var obj in itemsToEnable)
-    //    {
-    //        obj.SetActive(true);
-    //    }
+    //    //foreach (var obj in itemsToEnable)
+    //    //{
+    //    //    obj.SetActive(true);
+    //    //}
+
+
+
     //}
+    //End of testing
+
 
     private void ShowText()
     {
@@ -99,4 +114,11 @@ public class Dialogue_Manager : MonoBehaviour
 
         }
     }
+
+    public void deleteThis()
+    {
+        objectToDelete = EventSystem.current.currentSelectedGameObject;
+        delete = true;
+    }
+
 }
