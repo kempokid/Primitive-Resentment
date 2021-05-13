@@ -8,11 +8,11 @@ public class ItemRequirement : MonoBehaviour
     public ItemObject requiredItem;
     public SO_Convo noItemDialogue;
     public SO_Convo itemDialogue;
+    public SO_Convo postItemDialogue;
     public Dialogue_Manager dialogueManager;
     public InventoryObject inventory;
     //public InventoryDisplay invDisplay;
     //public InventoryManager invManager;
-    bool foundItem = false;
     bool gaveItem = false;
     public bool canAddItem;
     public ItemObject itemToAdd;
@@ -34,10 +34,10 @@ public class ItemRequirement : MonoBehaviour
     // Start is called before the first frame update
     public void TriggerDialogue()
     {
-       // if (foundItem == true)
-       // {
-        //    ToggleItem();
-      //  }
+       if (gaveItem == true)
+       {
+            dialogueManager.Start_Dialogue(postItemDialogue);
+       }
         if(requiredItem == null)
         {
             dialogueManager.Start_Dialogue(itemDialogue);
@@ -52,7 +52,6 @@ public class ItemRequirement : MonoBehaviour
                 {
                     Debug.Log("Correct Item");
                     dialogueManager.Start_Dialogue(itemDialogue);
-                    foundItem = true;
                     ToggleItem();
                     if (canAddItem == true && gaveItem == false)
                     {
