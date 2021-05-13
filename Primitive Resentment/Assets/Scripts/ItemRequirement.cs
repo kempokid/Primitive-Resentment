@@ -13,6 +13,9 @@ public class ItemRequirement : MonoBehaviour
     //public InventoryDisplay invDisplay;
     //public InventoryManager invManager;
     bool foundItem = false;
+    bool gaveItem = false;
+    public bool canAddItem;
+    public ItemObject itemToAdd;
     public GameObject objectToChange;
 
     void ToggleItem()
@@ -31,11 +34,11 @@ public class ItemRequirement : MonoBehaviour
     // Start is called before the first frame update
     public void TriggerDialogue()
     {
-        if (foundItem == true)
-        {
-            ToggleItem();
-        }
-        else if(requiredItem == null)
+       // if (foundItem == true)
+       // {
+        //    ToggleItem();
+      //  }
+        if(requiredItem == null)
         {
             dialogueManager.Start_Dialogue(itemDialogue);
             ToggleItem();
@@ -50,6 +53,13 @@ public class ItemRequirement : MonoBehaviour
                     Debug.Log("Correct Item");
                     dialogueManager.Start_Dialogue(itemDialogue);
                     foundItem = true;
+                    ToggleItem();
+                    if (canAddItem == true && gaveItem == false)
+                    {
+                        Debug.Log("Give item");
+                        inventory.AddItem(itemToAdd, 1);
+                        gaveItem = true;
+                    }
                     return;
                 }
                 else
