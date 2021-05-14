@@ -7,14 +7,13 @@ using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour
 {
+    [Header("Time Variable")]
     private float startingTime = 10f;
     public float totalTime;
 
     [Header("Dialogue Options")]
     public Dialogue_Manager dialogueManager;
     public SO_Convo myConvo;
-
-    public TextMeshProUGUI clock;
 
     private float minutes;
     private float seconds;
@@ -33,7 +32,7 @@ public class CountdownTimer : MonoBehaviour
         minutes = (int)(totalTime / 60);
         seconds = (int)(totalTime % 60);
 
-        clock.text = minutes.ToString() + " : " + seconds.ToString();
+
 
         if(minutes <= 0f && seconds <= 0)
         {

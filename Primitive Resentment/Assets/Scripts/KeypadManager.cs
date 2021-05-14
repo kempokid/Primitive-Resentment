@@ -6,13 +6,14 @@ using TMPro;
 public class KeypadManager : MonoBehaviour
 {
 
-    public int maxPress;
-    public int currentPress;
+    private int maxPress;
+    private int currentPress;
     public TextMeshProUGUI KeypadDisplay;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Starts variables
         KeypadDisplay.text = null;
         maxPress = 5;
         currentPress = 0;
@@ -26,31 +27,35 @@ public class KeypadManager : MonoBehaviour
 
     public void PressKeypad()
     {
-        if(currentPress < maxPress)
+        //Adds each press to current press total, until max value
+        if (currentPress < maxPress)
         {
             currentPress++;
-        } 
-
-        if(currentPress == 1)
-        {
-            KeypadDisplay.text = "*";
         }
 
-        if (currentPress == 2)
+
+        //Checks how many times all buttons have been pressed, returns value to string.
+        switch (currentPress)
         {
-            KeypadDisplay.text = "**";
+            case 0:
+                KeypadDisplay.text = null;
+                break;
+            case 1:
+                KeypadDisplay.text = "*";
+                break;
+            case 2:
+                KeypadDisplay.text = "**";
+                break;
+            case 3:
+                KeypadDisplay.text = "***";
+                break;
+            case 4:
+                KeypadDisplay.text = "****";
+                break;
         }
 
-        if(currentPress == 3)
-        {
-            KeypadDisplay.text = "***";
-        }
 
-        if(currentPress == 4)
-        {
-            KeypadDisplay.text = "****";
-        }
-        
+        //Preforms random generation, then resets current presses back to 0
         if (currentPress == maxPress)
         {
             RTS();
@@ -61,12 +66,13 @@ public class KeypadManager : MonoBehaviour
     public string[] randomText;
     public TextMeshProUGUI insultDisplay;
 
-
+    //Displays generated text from GetRandomText
     public void RTS()
     {
         insultDisplay.text = GetRandomText();
     }
 
+    //Picks a random value from 0 - Max, and returns its string and feeds to RTS
     string GetRandomText()
     {
         int random = UnityEngine.Random.Range(0, randomText.Length);

@@ -2004,10 +2004,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe214facc689ba499c5d4021c213649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 0
+  totalTime: 3
   dialogueManager: {fileID: 126935334}
   myConvo: {fileID: 11400000, guid: a07fc18fca34f2140a16cc86c208b00c, type: 2}
-  clock: {fileID: 1109143370}
 --- !u!4 &437094910
 Transform:
   m_ObjectHideFlags: 0
@@ -4989,7 +4988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Please enter the password
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3d27910754f5323488459efeaaede12b, type: 2}
   m_sharedMaterial: {fileID: -8981664616458963220, guid: 3d27910754f5323488459efeaaede12b, type: 2}
@@ -6137,7 +6136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1416619194
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6520,7 +6519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1589603608
 RectTransform:
   m_ObjectHideFlags: 0
