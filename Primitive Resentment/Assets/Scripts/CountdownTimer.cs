@@ -8,12 +8,17 @@ using UnityEngine;
 public class CountdownTimer : MonoBehaviour
 {
     [Header("Time Variable")]
-    private float startingTime = 10f;
+    public float startingTime = 80f;
+    //Public for debugging
     public float totalTime;
 
     [Header("Dialogue Options")]
     public Dialogue_Manager dialogueManager;
     public SO_Convo myConvo;
+
+    [Header("Door Blockers")]
+    public GameObject doorBlockRight;
+    public GameObject doorBlockLeft;
 
     private float minutes;
     private float seconds;
@@ -22,6 +27,7 @@ public class CountdownTimer : MonoBehaviour
     void Start()
     {
         totalTime = startingTime;
+        doorBlockLeft.SetActive(true);
     }
 
     // Update is called once per frame
@@ -49,7 +55,7 @@ public class CountdownTimer : MonoBehaviour
         }
 
         //Open door
-
+        Destroy(doorBlockRight);
 
         //Destroy time manager
         Destroy(gameObject);
