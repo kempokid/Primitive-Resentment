@@ -20,9 +20,6 @@ public class CountdownTimer : MonoBehaviour
     public GameObject doorBlockRight;
     public GameObject doorBlockLeft;
 
-    private float minutes;
-    private float seconds;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -35,12 +32,9 @@ public class CountdownTimer : MonoBehaviour
     {
         totalTime -= Time.deltaTime;
 
-        minutes = (int)(totalTime / 60);
-        seconds = (int)(totalTime % 60);
 
 
-
-        if(minutes <= 0f && seconds <= 0)
+        if(totalTime <= 0f)
         {
             totalTime = 0f;
             TimerEvent();

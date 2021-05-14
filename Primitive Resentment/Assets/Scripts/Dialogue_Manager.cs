@@ -15,13 +15,6 @@ public class Dialogue_Manager : MonoBehaviour
     public Image CharPortrait;
     public GameObject CharacterPortrait;
     
-
-    
-
-    //In testing
-    //private List<GameObject> itemsToDisable;
-    //private List<GameObject> itemsToEnable;
-    
         [Header("Deleting Variables")]
     public bool delete;
     public GameObject objectToDelete;

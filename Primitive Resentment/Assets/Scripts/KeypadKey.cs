@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class KeypadKey : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    // Fires off event to KeypadManager. End of script.
     public void KeypadPress()
     {
         FindObjectOfType<KeypadManager>().PressKeypad();

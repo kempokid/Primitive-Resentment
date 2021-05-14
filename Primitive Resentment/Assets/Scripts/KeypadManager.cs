@@ -22,12 +22,6 @@ public class KeypadManager : MonoBehaviour
         _as = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void PressKeypad()
     {
         //Adds each press to current press total, until max value

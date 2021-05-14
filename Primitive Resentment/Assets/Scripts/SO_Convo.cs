@@ -13,9 +13,4 @@ public class SO_Convo : ScriptableObject
     public Sprite portrait;
     public List<string> myConversation = new List<string>();
 
-    //Item List to enable/Disable after conversation
-
-    //public List<GameObject> ItemsToDisable = new List<GameObject>();
-    //public List<GameObject> ItemsToEnable = new List<GameObject>();
-
 }
