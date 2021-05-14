@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
-  m_Name: Dead Science Man 2
+  m_Script: {fileID: 11500000, guid: 534f323c135acc04abd733f82daba535, type: 3}
+  m_Name: Pipe Wrench
   m_EditorClassIdentifier: 
-  npcName: Dead Scientist
-  portrait: {fileID: 0}
-  myConversation:
-  - Utter carnage in here.
-  - They're all dead.
-  - Just how psychopathic is this thing?
+  prefab: {fileID: 5447205148464221417, guid: 0abd1a2f7be8bb64aabf6753abe90b56, type: 3}
+  type: 0
+  description: 

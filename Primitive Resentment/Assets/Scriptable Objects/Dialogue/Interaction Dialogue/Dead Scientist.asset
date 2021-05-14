@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
-  m_Name: Dead Science Woman
+  m_Name: Dead Scientist
   m_EditorClassIdentifier: 
   npcName: Dead Scientist
   portrait: {fileID: 21300000, guid: 25083c67075af3f4ba30239866652214, type: 3}
   myConversation:
-  - She's dead
+  - He's dead.
+  - Head bashed in with a pipe wrench.

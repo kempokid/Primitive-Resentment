@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
-  m_Name: Dead Science Man 2
+  m_Name: Pipe Wrench Collect
   m_EditorClassIdentifier: 
-  npcName: Dead Scientist
-  portrait: {fileID: 0}
+  npcName: 
+  portrait: {fileID: 21300000, guid: abeb48b46266ef145b4f56f4be59e7b1, type: 3}
   myConversation:
-  - Utter carnage in here.
-  - They're all dead.
-  - Just how psychopathic is this thing?
+  - This must've been the weapon that the monkey used, still might come in handy
