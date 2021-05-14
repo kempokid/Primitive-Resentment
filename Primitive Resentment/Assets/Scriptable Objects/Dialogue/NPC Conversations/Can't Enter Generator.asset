@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
-  m_Name: Dead Michael
+  m_Name: Can't Enter Generator
   m_EditorClassIdentifier: 
-  npcName: Michael
+  npcName: 
   portrait: {fileID: 0}
   myConversation:
-  - Oh my god.
-  - Michael, he's
-  - He's...
-  - I will avenge you
+  - Michael's in there right now checking the generator.
+  - Don't want to interrupt his fond thoughts of his girlfriend.

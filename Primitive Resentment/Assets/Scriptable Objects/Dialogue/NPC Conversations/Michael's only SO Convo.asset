@@ -15,17 +15,17 @@ MonoBehaviour:
   npcName: Michael
   portrait: {fileID: 21300000, guid: 955c796ad5e3985468018c32c67d496b, type: 3}
   myConversation:
-  - Hey man, long time no see? I assume you've already been run down on the situation?
-    About the monkey, not the situation with my wonderful girlfriend
-  - I've locked down most of the building, but I need to make sure the generators
-    are running fine and the vents are sealed so nothing happens when we head in
+  - Anyway man, long time no see? This situation is pretty crazy. About the monkey,
+    not the situation with my wonderful girlfriend.
+  - Most of the building's already locked downI, but I need to make sure the generators
+    are running properly and the vents are sealed so nothing bad happens.
   - I'm kinda nervous being here, been thinking about proposing to my girl when I
-    leave here, I even bought this ring for her
-  - She's the love of my life, man. I wont let anything come between us, especially
-    not some zoo animal
+    leave finish this job, I even bought this ring for her.
+  - She's the love of my life, man. I won't let anything come between us, especially
+    not some zoo animal.
   - Thinkin' about taking her out to the country, in my old hometown, settling down,
     living the quiet life, y'know?
   - Just us, as a family. That's all I want, y'know?
-  - Anyway, wanna go into the Maintenance Room and grab the Generator Room key card
-    so we can get this over with. I'll just stay here and think about my wife to
-    be a little bit
+  - Anyway, I'll head into the generator room and get that sorted out, wanna go into
+    the Maintenance Room and see if a spare keycard is there? Can't be too prepared.
+    I'll go ahead and think about my future wife for a bit.

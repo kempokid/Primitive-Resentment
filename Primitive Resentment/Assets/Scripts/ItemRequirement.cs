@@ -70,13 +70,13 @@ public class ItemRequirement : MonoBehaviour
                 {
                     Debug.Log("Correct Item");
                     dialogueManager.Start_Dialogue(itemDialogue);
-                    ToggleItem();
                     if (canAddItem == true && gaveItem == false)
                     {
                         Debug.Log("Give item");
                         inventory.AddItem(itemToAdd, 1);
                         gaveItem = true;
                     }
+                    ToggleItem();                  
                     return;
                 }
                 else
