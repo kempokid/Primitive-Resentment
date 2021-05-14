@@ -9,6 +9,8 @@ public class KeypadManager : MonoBehaviour
     private int maxPress;
     private int currentPress;
     public TextMeshProUGUI KeypadDisplay;
+    public AudioClip buzzer;
+    public AudioSource _as;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,7 @@ public class KeypadManager : MonoBehaviour
         KeypadDisplay.text = null;
         maxPress = 5;
         currentPress = 0;
+        _as = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -61,6 +64,7 @@ public class KeypadManager : MonoBehaviour
             RTS();
             KeypadDisplay.text = null;
             currentPress = 0;
+            _as.PlayOneShot(_as.clip);
         }
     }
     public string[] randomText;
