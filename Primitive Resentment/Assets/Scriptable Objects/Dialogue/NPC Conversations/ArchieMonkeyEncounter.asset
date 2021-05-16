@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
+  m_Name: ArchieMonkeyEncounter
+  m_EditorClassIdentifier: 
+  npcName: 
+  portrait: {fileID: 0}
+  myConversation:
+  - (I unfold the cape John gave me and present it to Archie)
+  - 'Is that? '
+  - 'Is that his cape? '
+  - Is this nightmare finally over? Finally time to start rebuilding?
+  - It's a shame how things turned out, years of research wasted, but this time around,
+    I won't make the same mistakes as before.
+  - No matter how far I may fall, I can kickstart this empire of mine once again,
+    after all, this zoo will surely rehire despite these setbacks.
+  - Nobody else is making them the next big thing, I'm in the clear, we can sweep
+    all this under the rug and continue going.
+  - Wait... why the hell is it still here?!

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
+  m_Name: Monkey and Archie Both Die
+  m_EditorClassIdentifier: 
+  npcName: 
+  portrait: {fileID: 0}
+  myConversation:
+  - '(As John continues to scream, Archie is looking '
+  - Of all outcomes to occur, this certainly wasn't one I found very likely.
+  - Fortunately for me, I was able to find the fail safe, the remote to detonate
+    the nano machines in his heart.
+  - He's as good as dead now, his heart's completely destroyed
+  - He'll be able to live for another 20 seconds at most.
+  - I've won, he can't move, and now to deal with you, to deal with the last thing
+    in my way of prog-
+  - (In a fit of desperation and fury, John gets up and lunges at Archie, ripping
+    his head off his neck using his teeth, before collapsing)

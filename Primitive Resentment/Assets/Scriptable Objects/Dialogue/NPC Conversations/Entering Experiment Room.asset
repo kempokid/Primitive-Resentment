@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
+  m_Name: Entering Experiment Room
+  m_EditorClassIdentifier: 
+  npcName: Archie
+  portrait: {fileID: 21300000, guid: ec39ac3b8fbe2bd4cb3cced4d0a9b452, type: 3}
+  myConversation:
+  - (I walk into the lab room and am taken aback by the sight before me)
+  - Told you it would be an impressive glimpse into what we've been able to do.
+  - We've been able to get so far in altering life itself.
+  - This isn't just for mere spectacle, from here we'll be able to fo even further,
+    this could lead to some serious breakthroughs.
+  - This is the future!
