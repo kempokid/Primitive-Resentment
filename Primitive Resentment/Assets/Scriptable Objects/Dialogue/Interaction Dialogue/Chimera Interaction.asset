@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Chimera Interaction
   m_EditorClassIdentifier: 
-  npcName: Chimera
+  npcName: 
   portrait: {fileID: 21300000, guid: be04697c8b82f924eae767e8f533744b, type: 3}
   myConversation:
   - What... is this?

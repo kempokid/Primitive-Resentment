@@ -15,5 +15,10 @@ MonoBehaviour:
   npcName: 
   portrait: {fileID: 21300000, guid: 3e13b1b2d66a97e45bf44382678b332c, type: 3}
   myConversation:
-  - '*insert document dialogue here*'
-  - '*later*'
+  - '"First day working at this new site"'
+  - '"Definitely a big day, having finally seen Archie get the funds and resources
+    necessary to properly carry out his work."'
+  - '"A bit strange that of all places, it was a zoo that ended up providing this
+    opportunity, but it doesn''t really matter to us  if we''re working in such close
+    association with them"'
+  - '"Can''t look a gift horse in the mouth after all"'

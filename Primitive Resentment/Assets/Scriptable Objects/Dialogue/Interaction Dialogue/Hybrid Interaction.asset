@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Hybrid Interaction
   m_EditorClassIdentifier: 
-  npcName: Hybrid
+  npcName: 
   portrait: {fileID: 21300000, guid: ca97fe84e3b4711439dfbdb9ce26d3ea, type: 3}
   myConversation:
   - What is this thing?...

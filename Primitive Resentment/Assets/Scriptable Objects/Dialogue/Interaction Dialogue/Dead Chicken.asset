@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Dead Chicken
   m_EditorClassIdentifier: 
-  npcName: Chicken
+  npcName: 
   portrait: {fileID: 21300000, guid: d688bbedc80471a43a05a2939dc3e5ab, type: 3}
   myConversation:
   - A dead chicken

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SurgicalToolInteract
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 21300000, guid: 1528c17ad9ac015488e7c1082276a5e5, type: 3}
+  portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
   - There are a bunch of surgical tools laid out here next to this body
   - There's dried blood and flecks of rust covering them

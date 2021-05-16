@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RequiresMichael'sHand
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
   - Damn, the door also has a fingerprint scanner that's still functional
   - Guess this is another reason why Archie sent Michael with me.

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Rat with chefs hat
   m_EditorClassIdentifier: 
-  npcName: Rat
+  npcName: 
   portrait: {fileID: 21300000, guid: e6f9b6fc050b24e46affc10ef202f670, type: 3}
   myConversation:
   - It's a dead rat

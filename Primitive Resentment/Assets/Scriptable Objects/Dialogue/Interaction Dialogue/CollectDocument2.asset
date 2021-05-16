@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: CollectDocument2
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 3e13b1b2d66a97e45bf44382678b332c, type: 3}
   myConversation:
   - This paper looks interesting, might have something interesting on it.
   - What was that animalistic screeching? Sounds like it came from the generator
     room.
-  - I'll read this a bit later, gotta head over there now!
+  - I'll read this a bit later by pressing I, gotta head over there now!

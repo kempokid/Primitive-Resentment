@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: DecontaminationMonkey
   m_EditorClassIdentifier: 
-  npcName: Monkey
+  npcName: 
   portrait: {fileID: 21300000, guid: a615d6b8abcb5b74cb6865397b0cda36, type: 3}
   myConversation:
   - He's staring intensely at me through the glass

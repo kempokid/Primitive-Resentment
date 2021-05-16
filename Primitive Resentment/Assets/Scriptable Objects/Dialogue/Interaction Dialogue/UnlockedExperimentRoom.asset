@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UnlockedExperimentRoom
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0d75c9292c6f6ac46b7cbd42d7d2fcce, type: 3}
   myConversation:
   - Looks like this was the right card
   - Time to see what's beyond this door.

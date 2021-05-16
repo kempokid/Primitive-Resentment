@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Dead Michael
   m_EditorClassIdentifier: 
-  npcName: Michael
-  portrait: {fileID: 0}
+  npcName: 
+  portrait: {fileID: 21300000, guid: b641313cde834d24d9680d9926786829, type: 3}
   myConversation:
   - Oh my god.
   - Michael, he's

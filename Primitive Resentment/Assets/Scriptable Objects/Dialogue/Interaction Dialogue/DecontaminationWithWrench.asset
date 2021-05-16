@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DecontaminationWithWrench
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8c8bbd07f75db3745a6254cde91a418b, type: 3}
   myConversation:
   - Through here is the decontamination room.
   - Time to brace myself for whatever's ahead.
