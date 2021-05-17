@@ -15,6 +15,7 @@ MonoBehaviour:
   npcName: 
   portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
-  - Damn, the door also has a fingerprint scanner that's still functional
-  - Guess this is another reason why Archie sent Michael with me.
-  - He's probably registered in the database.
+  - 'Damn, the door''s fingerprint scanner is still fully operational. '
+  - I guess Michael's clearance level was another reason why Archie chose to send
+    him in here with me.
+  - His fingerprints certainly would have opened this up.
