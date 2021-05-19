@@ -16,4 +16,5 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 47aa0e92babef9a4c8fabc71e8288a0b, type: 3}
   myConversation:
   - There's something on here
-  - It's an article, about a serial killer, he seems to have been arrested recently
+  - It's an article, about a serial killer, he seems to have been arrested recently.
+  - Says he's been taken away somewhere, but it's kept intentionally vague.
