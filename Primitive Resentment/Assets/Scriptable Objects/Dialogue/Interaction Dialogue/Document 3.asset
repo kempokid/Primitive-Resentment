@@ -15,5 +15,15 @@ MonoBehaviour:
   npcName: 
   portrait: {fileID: 21300000, guid: 3e13b1b2d66a97e45bf44382678b332c, type: 3}
   myConversation:
-  - '*insert document 3 dialogue here*'
-  - '*later*'
+  - It's another one of these entries.
+  - '"We got our first batch of test subjects in, a wide variety of animals, ranging
+    from cats, to rats, to even some horses and monkeys"'
+  - '"Despite that, I think there''s something a bit strange going on"'
+  - '"Recently found out that the zoo''s financial situation has been plummeting
+    as of late, and yet, they seem to be doubling down on how much they pay us."'
+  - '"There''s also this other new guy who''s been working closely with Archie as
+    of late, I don''t know much about him at all yet."'
+  - '"He seems very commited to this work, almost as if he''s trying to push things
+    along so he can go back and get to something on the outside of this."'
+  - '"That said, maybe it''s a good thing for there to be someone pushing this all
+    forward, can''t complain about productivity."'

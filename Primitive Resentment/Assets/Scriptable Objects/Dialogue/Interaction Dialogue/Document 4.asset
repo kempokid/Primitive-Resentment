@@ -15,5 +15,19 @@ MonoBehaviour:
   npcName: 
   portrait: {fileID: 21300000, guid: 3e13b1b2d66a97e45bf44382678b332c, type: 3}
   myConversation:
-  - '*insert document 4 dialogue here*'
-  - '*later*'
+  - Yet another one of these.
+  - '"If I wasn''t sure something odd was going on before, this basically confirms
+    it to me"'
+  - '"The animals have been getting taken away and never seen again at an alarming
+    rate, we''ve already burned through the first group we got."'
+  - '"The tests seem to have been going pretty poorly as well, Archie and the other
+    higher up seem to be on edge almost constantly."'
+  - '"That said, I''ve gotten to have a conversation with that other guy, and he
+    seems nice enough."'
+  - '"Talks a bit excessively about his girlfriend, but ah well, shows how devoted
+    he is to her I guess."'
+  - '"In any case, constantly hearing frustrations about how close they seem to be
+    to the breakthrough is getting a bit disheartening."'
+  - '"I hope they''re able to figure this out, I heard something about the lab getting
+    a very special new test subject in the next week or so, maybe this could be what
+    was needed"'

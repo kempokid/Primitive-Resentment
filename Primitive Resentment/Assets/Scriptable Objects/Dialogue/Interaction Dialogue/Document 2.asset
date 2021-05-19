@@ -15,5 +15,12 @@ MonoBehaviour:
   npcName: 
   portrait: {fileID: 21300000, guid: 3e13b1b2d66a97e45bf44382678b332c, type: 3}
   myConversation:
-  - '*insert document 2 dialogue here*'
-  - '*later*'
+  - It's a journal entry.
+  - '"Work seems to have been progressing well lately, Archie says that at this point,
+    enough research has been done for there to be the possibility of testing soon."'
+  - '"Turns out that the money the zoo was giving us ended up going a lot further
+    than any of us could have predicted."'
+  - '"A bit odd still for them to be giving so much money, but it might make sense
+    given what all this research has been going towards so far."'
+  - '"After all, all this so far seems to be pointing towards some sort of new development
+    in animal research."'
