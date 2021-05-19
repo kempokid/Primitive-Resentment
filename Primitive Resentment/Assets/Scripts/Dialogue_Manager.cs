@@ -20,6 +20,11 @@ public class Dialogue_Manager : MonoBehaviour
     public GameObject objectToDelete;
     public GameObject linkedItem;
 
+    [Header("EnableVariables")]
+    public bool enable;
+    public GameObject objectToEnable;
+    public GameObject linkedEnableItem;
+
     private List<string> conversation;
     private int convoIndex;
 
@@ -73,6 +78,10 @@ public class Dialogue_Manager : MonoBehaviour
         {
             deleteMe();
         }
+        if(enable == true)
+        {
+            enableMe();
+        }
     }
 
 
@@ -113,6 +122,22 @@ public class Dialogue_Manager : MonoBehaviour
     {
         Destroy(objectToDelete);
         Destroy(linkedItem);
+    }
+
+    public void enableThis(EnableScript _enable)
+    {
+        objectToDelete = EventSystem.current.currentSelectedGameObject;
+        objectToEnable = _enable.gameObject;
+        enable = true;
+    }
+
+    public void enableMe()
+    {
+        if(objectToDelete != null)
+        {
+            Destroy(objectToDelete);
+        }
+        objectToEnable.SetActive(true);
     }
 
 }
