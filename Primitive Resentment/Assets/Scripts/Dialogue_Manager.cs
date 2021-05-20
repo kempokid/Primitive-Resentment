@@ -120,8 +120,23 @@ public class Dialogue_Manager : MonoBehaviour
     //Function that destroys button that activates it, and a single linked item, after conversation ends. Only activated if the deleteThis function is triggered.
     public void deleteMe()
     {
-        Destroy(objectToDelete);
-        Destroy(linkedItem);
+        if(objectToDelete != null)
+        {
+           Destroy(objectToDelete);
+           Destroy(linkedItem);
+        }
+
+        if(objectToDelete == null)
+        {
+            Destroy(linkedItem);
+        }
+        
+    }
+
+    public void deleteThisNoButton(DisableScript _disable)
+    {
+        linkedItem = _disable.gameObject;
+        delete = true;
     }
 
     public void enableThis(EnableScript _enable)
@@ -131,13 +146,25 @@ public class Dialogue_Manager : MonoBehaviour
         enable = true;
     }
 
+    public void enableThisNoButton(EnableScript _enable)
+    {
+        objectToEnable = _enable.gameObject;
+        enable = true;
+    }
+
     public void enableMe()
     {
         if(objectToDelete != null)
         {
             Destroy(objectToDelete);
+            objectToEnable.SetActive(true);
         }
-        objectToEnable.SetActive(true);
+
+        if(objectToDelete == null)
+        {
+            objectToEnable.SetActive(true);
+        }
+        
     }
 
 }
