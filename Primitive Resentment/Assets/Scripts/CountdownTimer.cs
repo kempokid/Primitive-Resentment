@@ -8,7 +8,7 @@ using UnityEngine;
 public class CountdownTimer : MonoBehaviour
 {
     [Header("Time Variable")]
-    public float startingTime = 80f;
+    public float startingTime = 60f;
     //Public for debugging
     public float totalTime;
     public int timesFailed;
