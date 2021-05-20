@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: ArchieMonkeyEncounter
   m_EditorClassIdentifier: 
-  npcName: 
-  portrait: {fileID: 0}
+  npcName: Archie
+  portrait: {fileID: 21300000, guid: 38df1e31db043734f88d5f9853b41356, type: 3}
   myConversation:
   - (I unfold the cape John gave me and present it to Archie)
   - 'Is that? '

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: MonkeyAttacksArchie
   m_EditorClassIdentifier: 
-  npcName: John the Monkey
+  npcName: John
   portrait: {fileID: 21300000, guid: 8ed6318373a38e04faafe253fc462749, type: 3}
   myConversation:
   - You've done well to make this happen.

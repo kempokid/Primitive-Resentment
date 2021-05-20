@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: UsedGreenKaycard
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 21300000, guid: f8a57aded7d388b4b9b31a758a109d5d, type: 3}
+  portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
-  - Alright, this works, wasn't sure whether it would at this rate.
+  - Alright, I unlocked it, wasn't sure whether it would at this rate.
   - Can't believe this though, he was going to propose...
   - In any case, I need to press on and get that monkey.

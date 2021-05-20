@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Monkey is Dead
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f89d7568ffd9da340b1420fcdf6552d2, type: 3}
   myConversation:
   - There's no life here anymore
   - I'm all that's left

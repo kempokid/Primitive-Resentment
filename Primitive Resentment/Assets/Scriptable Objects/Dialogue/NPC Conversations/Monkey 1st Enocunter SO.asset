@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Monkey 1st Enocunter SO
   m_EditorClassIdentifier: 
-  npcName: 
-  portrait: {fileID: 21300000, guid: 8ed6318373a38e04faafe253fc462749, type: 3}
+  npcName: Monkey
+  portrait: {fileID: 21300000, guid: 048d7013470b2cf4dade8270e4335c6c, type: 3}
   myConversation:
   - AAAAAAAAAAAEEEEEEEEOOOOOOOOOAAAAAAAAHHHHHHHHHH
-  - (The monkey screams frantically at you before climbing through the vents....
-    It looks like it's just you and him now)
+  - (The monkey screams frantically at me before climbing through the vents.... It
+    looks like it's just me and Michael now)

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Monkey After Giving Cape
   m_EditorClassIdentifier: 
-  npcName: 
-  portrait: {fileID: 0}
+  npcName: John
+  portrait: {fileID: 21300000, guid: a615d6b8abcb5b74cb6865397b0cda36, type: 3}
   myConversation:
   - I thank you for being able to see through the lies and deception fed to you.
   - This gives me a sense of hope, a sense that I can end this all.

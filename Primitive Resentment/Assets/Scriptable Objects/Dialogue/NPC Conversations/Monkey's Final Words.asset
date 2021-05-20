@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Monkey's Final Words
   m_EditorClassIdentifier: 
-  npcName: 
+  npcName: John
   portrait: {fileID: 0}
   myConversation:
   - That fool....

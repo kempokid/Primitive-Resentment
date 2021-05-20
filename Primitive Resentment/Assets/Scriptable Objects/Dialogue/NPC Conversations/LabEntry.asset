@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LabEntry
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
   - What did he mean by what he said?
   - He's the bad one here after all.

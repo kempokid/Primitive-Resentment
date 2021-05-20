@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Wet Floor Sign
   m_EditorClassIdentifier: 
-  npcName: Wet Floor Sign
+  npcName: 
   portrait: {fileID: 21300000, guid: f77404a320e0e5f4489fc749cf6f143d, type: 3}
   myConversation:
   - A wet floor sign.

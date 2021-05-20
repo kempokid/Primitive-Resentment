@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
   m_Name: Michael Keycard Pickup
   m_EditorClassIdentifier: 
-  npcName: 
+  npcName: Michael
   portrait: {fileID: 21300000, guid: 955c796ad5e3985468018c32c67d496b, type: 3}
   myConversation:
   - Awesome, thanks for that, man.
   - You can press the "I" key to open the inventory screen to click and get a closer
     look at the stuff you pick up.
+  - I'll handle the keycards and stuff in the future as well, my high clearance level
+    allows me to go through most of these doors.
