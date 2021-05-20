@@ -11,6 +11,7 @@ public class KeypadManager : MonoBehaviour
     public TextMeshProUGUI KeypadDisplay;
     public AudioClip buzzer;
     public AudioSource _as;
+    public GameObject cdTimer;
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +57,7 @@ public class KeypadManager : MonoBehaviour
         if (currentPress == maxPress)
         {
             RTS();
+            IncreaseFail();
             KeypadDisplay.text = null;
             currentPress = 0;
             _as.PlayOneShot(_as.clip);
@@ -68,6 +70,11 @@ public class KeypadManager : MonoBehaviour
     public void RTS()
     {
         insultDisplay.text = GetRandomText();
+    }
+
+    public void IncreaseFail()
+    {
+        cdTimer.GetComponent<CountdownTimer>().FailureIncrease();
     }
 
     //Picks a random value from 0 - Max, and returns its string and feeds to RTS

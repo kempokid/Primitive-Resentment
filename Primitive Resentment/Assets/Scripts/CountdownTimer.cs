@@ -11,6 +11,7 @@ public class CountdownTimer : MonoBehaviour
     public float startingTime = 80f;
     //Public for debugging
     public float totalTime;
+    public int timesFailed;
 
     [Header("Dialogue Options")]
     public Dialogue_Manager dialogueManager;
@@ -32,9 +33,14 @@ public class CountdownTimer : MonoBehaviour
     {
         totalTime -= Time.deltaTime;
 
+        if(totalTime < 0f)
+        {
+            totalTime = 0f;
+        }
 
 
-        if(totalTime <= 0f)
+
+        if(totalTime <= 0f && timesFailed >= 4)
         {
             totalTime = 0f;
             TimerEvent();
@@ -53,5 +59,10 @@ public class CountdownTimer : MonoBehaviour
 
         //Destroy time manager
         Destroy(gameObject);
+    }
+
+    public void FailureIncrease()
+    {
+        timesFailed++;
     }
 }
