@@ -16,5 +16,5 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 47aa0e92babef9a4c8fabc71e8288a0b, type: 3}
   myConversation:
   - There's something on here
-  - Seems to be the earnings report for the zoo.
+  - It's an earnings report for the zoo.
   - Seems like their business is failing.
