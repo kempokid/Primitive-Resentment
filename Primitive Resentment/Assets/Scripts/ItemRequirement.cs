@@ -18,6 +18,8 @@ public class ItemRequirement : MonoBehaviour
     public ItemObject itemToAdd;
     public GameObject objectToChange;
     public GameObject objectToChange2;
+    public GameObject objectToChange3;
+    public GameObject objectToChange4;
 
     void ToggleItem()
     {
@@ -37,6 +39,24 @@ public class ItemRequirement : MonoBehaviour
         else
         {
             objectToChange2.SetActive(false);
+        }
+
+        if (objectToChange3.activeSelf == false)
+        {
+            objectToChange3.SetActive(true);
+        }
+        else
+        {
+            objectToChange3.SetActive(false);
+        }
+
+        if (objectToChange4.activeSelf == false)
+        {
+            objectToChange4.SetActive(true);
+        }
+        else
+        {
+            objectToChange4.SetActive(false);
         }
     }
 
