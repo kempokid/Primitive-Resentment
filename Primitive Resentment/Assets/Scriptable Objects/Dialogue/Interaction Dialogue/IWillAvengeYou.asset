@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: IWillAvengeYou
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b641313cde834d24d9680d9926786829, type: 3}
   myConversation: []

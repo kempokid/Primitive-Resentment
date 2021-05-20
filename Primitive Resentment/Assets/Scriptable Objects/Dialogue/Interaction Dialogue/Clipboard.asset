@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c610d87a4a0f94ea55ae8cba82e2d9, type: 3}
+  m_Name: Clipboard
+  m_EditorClassIdentifier: 
+  npcName: 
+  portrait: {fileID: 21300000, guid: f59e0c8c28391104588e2125246c0ace, type: 3}
+  myConversation:
+  - Seems like a list of something that went down here.
+  - 'Subject 1 - Results were promising, but lack of any visible differences made
+    it a poor candidate for out goals. Note: Died a week later.'
+  - Subject 2 - Some progress was made, definite potential with this one, but poor
+    initial choice in which parts to use made it flop around uselessly before shortly
+    dying.
+  - Subject 3 - Some serious progress here, functioned well for a while before convulsing
+    violently. Feels like we we're missing a single component to bring this together.
+  - Subject 4 - A sad product of overambition, trying to include multiple functioning
+    heads was bound to end in disaster. Complete wash.
+  - Subject 5 - Decided to try the same combination as with subject 3 again. Turns
+    out that it was just the combination that was off, ended up dying the same way
+    as before, we won't be trying this again.
+  - Subject 6, Joanne - Special circumstances gave us another subject to use for
+    this. The process went well, the conflicting parts didn't reject each other.
+  - 'Note: Unfortunate side effects of subject 6 seemed to have triggered insanity.
+    Joanne was found dead shortly after. Fortunately we know that the next subject
+    has a far stronger will.'
