@@ -15,6 +15,6 @@ MonoBehaviour:
   npcName: 
   portrait: {fileID: 21300000, guid: 62f34a5b4a0590547b49955a3a69d0bb, type: 3}
   myConversation:
-  - This hacksaw seems pretty old, probably no reason to take it anyway.
-  - I probably could cut through something with this, but I'll come back if I need
-    to get it for some reason.
+  - This hacksaw seems pretty old.
+  - I probably could cut through something with this though, I'll keep this in mind
+    for the future.
