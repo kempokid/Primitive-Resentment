@@ -8419,6 +8419,7 @@ GameObject:
   - component: {fileID: 1677275184}
   - component: {fileID: 1677275185}
   - component: {fileID: 1677275186}
+  - component: {fileID: 1677275187}
   m_Layer: 0
   m_Name: Michael Huntly
   m_TagString: Untagged
@@ -8499,7 +8500,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677275180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 1e51977217b1e334fa986c85bfbfbc9d, type: 2}
   m_CullingMode: 0
@@ -8631,6 +8632,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 645794702}
+--- !u!111 &1677275187
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677275180}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 9433a6103207d1848a00217c3aacafce, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1679848018
 GameObject:
   m_ObjectHideFlags: 0
