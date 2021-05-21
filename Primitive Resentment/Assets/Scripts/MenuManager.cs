@@ -11,6 +11,15 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("ProperScene");
     }
 
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void quit()
     {
         Application.Quit();
