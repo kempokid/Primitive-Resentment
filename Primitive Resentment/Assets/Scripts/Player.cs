@@ -12,5 +12,10 @@ public class Player : MonoBehaviour
         inventory.Container.Clear();
     }
 
+    private void Awake()
+    {
+        inventory.Container.Clear();
+    }
+
 
 }
