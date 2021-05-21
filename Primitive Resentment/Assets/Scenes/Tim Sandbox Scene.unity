@@ -4960,7 +4960,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1043567615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4983,8 +4983,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Please enter the password
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3d27910754f5323488459efeaaede12b, type: 2}
-  m_sharedMaterial: {fileID: -8981664616458963220, guid: 3d27910754f5323488459efeaaede12b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cac157be48a015946957b1006e449d35, type: 2}
+  m_sharedMaterial: {fileID: 6996925463871717994, guid: cac157be48a015946957b1006e449d35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

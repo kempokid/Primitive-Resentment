@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ab7e0284818489d4897ab18d279c9f88
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Queens Park
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7ae7c6822fa539545bffe0f88071f613, type: 3}
+  - {fileID: 12800000, guid: 16f34e4b39299fe488e2d557dd2a3c63, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
