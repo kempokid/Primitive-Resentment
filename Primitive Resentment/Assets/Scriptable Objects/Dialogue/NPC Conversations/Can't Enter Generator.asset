@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Can't Enter Generator
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
   - Michael's in there right now checking the generator.
   - Don't want to interrupt his fond thoughts of his girlfriend.

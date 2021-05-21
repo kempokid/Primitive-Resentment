@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LockedBreakRoom
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 21300000, guid: 8c8bbd07f75db3745a6254cde91a418b, type: 3}
+  portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
   - Looks like I'll need another keycard for this one.
   - Michael has it right now though, I should get it from him.
