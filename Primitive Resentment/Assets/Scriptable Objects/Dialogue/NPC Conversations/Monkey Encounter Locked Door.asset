@@ -15,4 +15,4 @@ MonoBehaviour:
   npcName: 
   portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
-  - I can't leave, this is it.
+  - I can't leave through this door, this is it.
