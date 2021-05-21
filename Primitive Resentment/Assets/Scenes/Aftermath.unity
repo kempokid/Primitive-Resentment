@@ -445,7 +445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 237.9, y: -0.000024796}
+  m_AnchoredPosition: {x: 237.9, y: -28}
   m_SizeDelta: {x: 2273.4805, y: 840.13403}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384142020
@@ -481,9 +481,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "I destroyed all the research so these experiments can never be replicated.                                  
-    \nI'm heading over to Michael's girlfriend tomorrow. She deserves to know what
-    happened.                                      \nIt's finally over..."
+  m_text: "I destroyed all the research I could find so these cruel experiments can
+    never be replicated. What happened will stay with me for life.                                  
+    \nI have to visit Michael's girlfriend when I get back. She deserves to know
+    the circumstances surrounding his death. Do I tell her what he was really doing
+    at the facility?                                    \nEither way, all of this
+    is finally over..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cac157be48a015946957b1006e449d35, type: 2}
   m_sharedMaterial: {fileID: 6996925463871717994, guid: cac157be48a015946957b1006e449d35, type: 2}
@@ -510,8 +513,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.38
-  m_fontSizeBase: 38.38
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -522,7 +525,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 123.45
+  m_lineSpacing: 113.79
   m_lineSpacingMax: 0
   m_paragraphSpacing: 550
   m_charWidthMaxAdj: 0
@@ -546,7 +549,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 484.75024, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -791,7 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5edaa2a649d0a044dab9493628773b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 20
+  startingTime: 30
   totalTime: 0
   fade: {fileID: 1721595909}
 --- !u!4 &2139463789
