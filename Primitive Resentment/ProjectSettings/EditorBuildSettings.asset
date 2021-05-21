@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/ProperScene.unity
     guid: 53073c1c7551f0a4d9e87792ddb196d8
   - enabled: 1
-    path: Assets/Scenes/Tim Sandbox Scene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Aftermath.unity
+    guid: a6aa2e0abdfc8e549b015218a9f2cd07
   - enabled: 1
     path: Assets/Scenes/End Scene.unity
     guid: 99b46a64c773a114abe117d98eeac15d
