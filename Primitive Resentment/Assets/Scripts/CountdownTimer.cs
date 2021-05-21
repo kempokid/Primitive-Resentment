@@ -4,6 +4,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CountdownTimer : MonoBehaviour
 {
@@ -21,9 +22,13 @@ public class CountdownTimer : MonoBehaviour
     public GameObject doorBlockRight;
     public GameObject doorBlockLeft;
 
+    [Header("Fade")]
+    public GameObject fade;
+
     // Start is called before the first frame update
     void Start()
     {
+        fade.SetActive(false);
         totalTime = startingTime;
         doorBlockLeft.SetActive(true);
     }
@@ -64,5 +69,10 @@ public class CountdownTimer : MonoBehaviour
     public void FailureIncrease()
     {
         timesFailed++;
+    }
+
+    public void nextScene()
+    {
+        fade.SetActive(true);
     }
 }
