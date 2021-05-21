@@ -15,7 +15,8 @@ MonoBehaviour:
   npcName: Archie
   portrait: {fileID: 21300000, guid: 38df1e31db043734f88d5f9853b41356, type: 3}
   myConversation:
-  - '(As John continues to scream, Archie is looking '
+  - (As John continues to scream, I notice Archie looking down at a remote in his
+    hand)
   - Of all outcomes to occur, this certainly wasn't one I found very likely.
   - Fortunately for me, I was able to find the fail safe, the remote to detonate
     the nano machines in his heart.

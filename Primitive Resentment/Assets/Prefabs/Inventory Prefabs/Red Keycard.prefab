@@ -107,5 +107,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Keycard
       objectReference: {fileID: 0}
+    - target: {fileID: 2834862837569595058, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834862837569595058, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
+      propertyPath: m_fontSize
+      value: 44.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834862837569595084, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5da57c44d5bc6b4992270be9fa0818e, type: 3}

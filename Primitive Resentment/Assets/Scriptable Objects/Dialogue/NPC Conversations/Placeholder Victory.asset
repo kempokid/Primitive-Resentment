@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Placeholder Victory
   m_EditorClassIdentifier: 
   npcName: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 28494803a3f72594a85cd8bf07fb36dc, type: 3}
   myConversation:
-  - You Win!!!!
+  - Before leaving, I need to destroy all this research, to make sure what went on
+    here never happens again.
