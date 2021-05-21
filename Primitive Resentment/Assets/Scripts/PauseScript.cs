@@ -2,49 +2,64 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseScript : MonoBehaviour
 {
-    public GameObject BaseCanvas;
-    public GameObject PauseCanvas;
+    //The main scene decided the pause menu didn't fucking work because its a load of dog shit so all this code is fucking worthless
 
-    bool isPaused;
+    //public GameObject BaseCanvas;
+    //public GameObject PauseCanvas;
 
-    private void Start()
+    //bool isPaused = false;
+
+    //private void Start()
+    //{
+    //    PauseCanvas.SetActive(false);
+
+    //}
+
+
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown("escape"))
+    //    {           
+    //        isPaused = !isPaused;
+    //    }
+
+    //    if (isPaused)
+    //    {
+    //        BaseCanvas.SetActive(false);
+    //        PauseCanvas.SetActive(true);
+    //    }
+    //    else
+    //    {
+    //        BaseCanvas.SetActive(true);
+    //        PauseCanvas.SetActive(false);
+    //    }
+    //}
+
+    //public void Resume()
+    //{
+    //    BaseCanvas.SetActive(true);
+
+    //    PauseCanvas.SetActive(false);
+
+    //    isPaused = !isPaused;
+    //}
+
+    //public void quit()
+    //{
+    //    Application.Quit();
+    //}
+
+    private void Update()
     {
-        isPaused = false;
-        PauseCanvas.SetActive(false);
-        
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown("escape") && isPaused == false)
+        if (Input.GetKeyDown("escape"))
         {
-            BaseCanvas.SetActive(false);
-
-            PauseCanvas.SetActive(true);
-        }
-
-        if(Input.GetKeyDown("escape") && isPaused == true)
-        {
-            BaseCanvas.SetActive(true);
-
-            PauseCanvas.SetActive(false);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
-    public void Resume()
-    {
-        BaseCanvas.SetActive(true);
-
-        PauseCanvas.SetActive(false);
-    }
-
-    public void quit()
-    {
-        Application.Quit();
-    }
 }
